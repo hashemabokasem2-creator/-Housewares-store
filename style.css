@@ -53,3 +53,8 @@ body {
 .card:hover .image {
   transform: scale(1.1);
 }
+
+.tracking-wide {
+  letter-spacing: 0.15rem;
+  font-family: "Nunito", sans-serif;
+}
