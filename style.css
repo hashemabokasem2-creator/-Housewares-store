@@ -1,26 +1,55 @@
 body {
   font-family: sans-serif;
 }
-:root{
-    --background-color: #ffffff;
-    --default-color: #212529;
-    --heading-color: #2d465e;
-    --accent-color: #f75815;
-    --surface-color: #ffffff;
-    --contrast-color: #ffffff;
+:root {
+  --background-color: #ffffff;
+  --default-color: #212529;
+  --heading-color: #2d465e;
+  --accent-color: #f75815;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+  --heading-font: "Nunito", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
-.blue{
-    background-color: var(--heading-color);
+.blue {
+  background-color: var(--heading-color);
 }
-.meta{
-    color: var(--heading-color);
-}
-
-.hevo{
-    color: var(--heading-color);
+.meta {
+  color: var(--heading-color);
 }
 
-.hevo:hover{
-    color: var(--accent-color);
+.hevo {
+  color: var(--heading-color);
+}
+
+.hevo:hover {
+  color: var(--accent-color);
+}
+
+.custom {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.custom:hover {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.image {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .image {
+  transform: scale(1.1);
 }
