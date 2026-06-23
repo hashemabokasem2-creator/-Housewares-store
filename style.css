@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+:root{
+    --background-color: #ffffff;
+    --default-color: #212529;
+    --heading-color: #2d465e;
+    --accent-color: #f75815;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+}
+
+.blue{
+    background-color: var(--heading-color);
+}
+.meta{
+    color: var(--heading-color);
+}
+
+.hevo{
+    color: var(--heading-color);
+}
+
+.hevo:hover{
+    color: var(--accent-color);
+}
