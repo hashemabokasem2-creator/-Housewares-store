@@ -3,6 +3,7 @@ body {
 }
 :root {
   --background-color: #ffffff;
+  --background-button: #d5d9dc;
   --default-color: #212529;
   --heading-color: #2d465e;
   --accent-color: #f75815;
@@ -57,4 +58,59 @@ body {
 .tracking-wide {
   letter-spacing: 0.15rem;
   font-family: "Nunito", sans-serif;
+}
+
+.btn-up {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-up:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-hov-up{
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-hov-up:hover{
+  border: none !important;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.float-badge {
+  position: absolute;
+  bottom: 25px;
+  right: -25px;
+  animation: floatAnimation 3s ease-in-out infinite; 
+}
+
+.icon-box {
+  width: 45px;
+  height: 45px;
+  background-color: #FFF0EB;
+}
+
+.icon-box i {
+  color: #FF5400;
+  font-size: 1.2rem;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
