@@ -131,6 +131,6 @@ body {
 }
 
 .paragragh:hover{
-  color: var(--heading-color);
-  transform: translateX(10px);
+  color: var(--accent-color);
+  transform: translateY(-10px);
 }
