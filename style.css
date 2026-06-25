@@ -11,6 +11,7 @@ body {
   --contrast-color: #ffffff;
   --heading-font: "Nunito", sans-serif;
   --nav-font: "Poppins", sans-serif;
+  --back-para:#6c757d;
 }
 
 .blue {
@@ -113,4 +114,23 @@ body {
   100% {
     transform: translateY(0px);
   }
+}
+.social-icon{
+  color: var(--heading-color);
+  border-color: var(--heading-color) !important;
+}
+
+.social-icon:hover{
+  color: var(--accent-color);
+  border-color: var(--accent-color) !important;
+}
+
+.paragragh{
+  color: var(--back-para);
+  transition: all 0.3s ease-in-out;
+}
+
+.paragragh:hover{
+  color: var(--heading-color);
+  transform: translateX(10px);
 }
