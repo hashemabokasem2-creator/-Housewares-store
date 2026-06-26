@@ -158,3 +158,27 @@ body {
   background-color: var(--accent-color);
   color: white;
 }
+
+.Web{
+  background-color: var(--accent-color);
+  color: white ;
+  transition: all 0.3s ease-in-out;
+}
+
+.Web:hover{
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+}
+
+.readmo{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.readmo:hover{
+  opacity: 0.7;
+  transform: translateX(10px);
+}
