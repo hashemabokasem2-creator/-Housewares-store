@@ -11,7 +11,7 @@ body {
   --contrast-color: #ffffff;
   --heading-font: "Nunito", sans-serif;
   --nav-font: "Poppins", sans-serif;
-  --back-para:#6c757d;
+  --back-para: #6c757d;
 }
 
 .blue {
@@ -62,7 +62,9 @@ body {
 }
 
 .btn-up {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .btn-up:hover {
@@ -70,14 +72,14 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
 }
 
-.btn-hov-up{
+.btn-hov-up {
   background-color: var(--background-color);
   color: var(--accent-color);
   border-color: var(--accent-color) !important;
   transition: all 0.3s ease-in-out;
 }
 
-.btn-hov-up:hover{
+.btn-hov-up:hover {
   border: none !important;
   background-color: var(--accent-color);
   color: var(--background-color);
@@ -85,22 +87,21 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
 }
 
-
 .float-badge {
   position: absolute;
   bottom: 25px;
   right: -25px;
-  animation: floatAnimation 3s ease-in-out infinite; 
+  animation: floatAnimation 3s ease-in-out infinite;
 }
 
 .icon-box {
   width: 45px;
   height: 45px;
-  background-color: #FFF0EB;
+  background-color: #fff0eb;
 }
 
 .icon-box i {
-  color: #FF5400;
+  color: #ff5400;
   font-size: 1.2rem;
 }
 
@@ -115,22 +116,45 @@ body {
     transform: translateY(0px);
   }
 }
-.social-icon{
+.social-icon {
   color: var(--heading-color);
   border-color: var(--heading-color) !important;
 }
 
-.social-icon:hover{
+.social-icon:hover {
   color: var(--accent-color);
   border-color: var(--accent-color) !important;
 }
 
-.paragragh{
+.paragragh {
   color: var(--back-para);
   transition: all 0.3s ease-in-out;
 }
 
-.paragragh:hover{
+.paragragh:hover {
   color: var(--accent-color);
   transform: translateY(-10px);
+}
+
+.buttun {
+  background-color: var(--background-button);
+  color: var(--accent-color);
+}
+
+.buttun:hover {
+  background-color: var(--accent-color) !important;
+  color: var(--background-button) !important;
+}
+
+.namber {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: white;
+}
+
+.namber:hover{
+  background-color: var(--accent-color);
+  color: white;
 }
