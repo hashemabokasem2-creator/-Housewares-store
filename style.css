@@ -154,40 +154,50 @@ body {
   background-color: white;
 }
 
-.namber:hover{
+.namber:hover {
   background-color: var(--accent-color);
   color: white;
 }
 
-.Web{
+.Web {
   background-color: var(--accent-color);
-  color: white ;
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 
-.Web:hover{
+.Web:hover {
   background-color: white;
   color: black;
   transform: translateY(-10px);
 }
 
-.readmo{
+.readmo {
   display: inline-block;
   text-decoration: none;
   color: var(--accent-color);
   transition: all 0.3s ease-in-out;
 }
 
-.readmo:hover{
+.readmo:hover {
   opacity: 0.7;
   transform: translateX(10px);
 }
 
-.reply{
+.reply {
   border: none;
   transition: transform 0.3s ease-in-out;
 }
-.reply:hover{
+.reply:hover {
   border-left: 4px solid var(--accent-color);
   transform: translateX(10px);
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  color: #ff5722;
+  border-right: 1px solid #dee2e6;
+}
+.form-control,
+.form-select {
+  border-left: 1px solid #dee2e6;
 }
